@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Action Settings</string>
+    <string name="app_name">Major Incident Qualification Tool</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="txtServiceDesk">Service Desk</string>
+    <string name="txtCriticalBusinessProcess">Critical Business Process</string>
+    <string name="txtEndUser">End User</string>
+    <string name="txtMajorIncident">Major Incident Type</string>
+    <string name="txtWorkaround">A workaround is available?</string>
+    <string name="txtQServiceDesk">Are calls flooding the service desk?</string>
+    <string name="txtQCBPAOP">Does it impact an AOP Application?</string>
+    <string name="txtQCBPClosing">Has Closing, Shipping or Payroll been impacted?</string>
+    <string name="txtQEUServiceDown">Is the service completely unavailable to end users?</string>
+    <string name="txtQEUCount">Have greater than 5 users been impacted?</string>
+    <string name="txtQEUGEST">Has a GEST user been impacted?</string>
+    <string name="txtQMIIntermittent">Is the service intermittent?</string>
+    <string name="txtQMIFailure">Will failure of the service impact other services?</string>
+    <string-array name="txtWorkaroundOptions">
+        <item >N/A</item>
+        <item >No</item>
+        <item >Yes</item>
+    </string-array>
+    <string name="txtWelcome">Welcome to the Major Incident Qualification Tool</string>
+    <string name="txtDisclaimer">This tool is meant to provide guidelines on when to initiate a Major Incident. Use your best judgement on the questions and if in doubt, ask a member of the Critical Response Team for assistance.</string>
+    <string name="txtInstructions">Answer the questions on the &quot;Questions&quot; page, then go to the &quot;Summary&quot; page to view the qualification.</string>
+    <integer name="SDWeight">10</integer>
+    <integer name="CBPWeight">40</integer>
+    <integer name="EUWeight">30</integer>
+    <integer name="MIWeight">20</integer>
+    <integer name="WorkAroundWeight">10</integer>
+    <string name="btnReset">Reset Form</string>
+    <string name="btnCalc">Calculate Rating</string>
+    <string name="txtMIRating">Major Incident Rating: 0</string>
+</resources>
